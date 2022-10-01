@@ -4,7 +4,7 @@ public class Pentagon extends Shape {
 
     private int side;
     private int angle;
-    private String color;
+    private String color = "blue";
 
     public Pentagon(int side, int angle, String color) {
         this.side = side;
